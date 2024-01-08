@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Main-Class: jpabook.jpashop.JpashopApplication
+Class-Path: attoparser-2.0.7.RELEASE.jar jackson-datatype-jdk8-2.15.3.ja
+ r hibernate-commons-annotations-6.0.6.Final.jar spring-boot-starter-jso
+ n-3.2.1.jar tomcat-embed-el-10.1.17.jar spring-core-6.1.2.jar spring-ao
+ p-6.1.2.jar jul-to-slf4j-2.0.9.jar logback-core-1.4.14.jar jakarta.xml.
+ bind-api-4.0.1.jar spring-data-jpa-3.2.1.jar spring-boot-3.2.1.jar micr
+ ometer-observation-1.12.1.jar p6spy-spring-boot-starter-1.9.1.jar thyme
+ leaf-3.1.2.RELEASE.jar spring-jdbc-6.1.2.jar spring-boot-autoconfigure-
+ 3.2.1.jar jaxb-runtime-4.0.4.jar spring-boot-starter-jdbc-3.2.1.jar log
+ back-classic-1.4.14.jar snakeyaml-2.2.jar jakarta.inject-api-2.0.1.jar 
+ jakarta.annotation-api-2.1.1.jar spring-web-6.1.2.jar jboss-logging-3.5
+ .3.Final.jar datasource-decorator-spring-boot-autoconfigure-1.9.1.jar t
+ hymeleaf-spring6-3.1.2.RELEASE.jar hibernate-core-6.4.1.Final.jar jande
+ x-3.1.2.jar unbescape-1.1.6.RELEASE.jar spring-boot-starter-aop-3.2.1.j
+ ar jakarta.transaction-api-2.0.1.jar spring-webmvc-6.1.2.jar spring-boo
+ t-starter-web-3.2.1.jar spring-boot-starter-thymeleaf-3.2.1.jar spring-
+ boot-starter-tomcat-3.2.1.jar spring-boot-starter-3.2.1.jar jakarta.per
+ sistence-api-3.1.0.jar spring-beans-6.1.2.jar spring-boot-devtools-3.2.
+ 1.jar spring-aspects-6.1.2.jar spring-jcl-6.1.2.jar antlr4-runtime-4.13
+ .0.jar jakarta.activation-api-2.1.2.jar spring-boot-starter-data-jpa-3.
+ 2.1.jar micrometer-commons-1.12.1.jar spring-tx-6.1.2.jar jackson-core-
+ 2.15.3.jar spring-context-6.1.2.jar spring-orm-6.1.2.jar HikariCP-5.0.1
+ .jar spring-data-commons-3.2.1.jar spring-boot-starter-logging-3.2.1.ja
+ r jackson-datatype-jsr310-2.15.3.jar p6spy-3.9.0.jar jackson-databind-2
+ .15.3.jar aspectjweaver-1.9.21.jar log4j-api-2.21.1.jar txw2-4.0.4.jar 
+ jaxb-core-4.0.4.jar jackson-annotations-2.15.3.jar angus-activation-2.0
+ .1.jar tomcat-embed-websocket-10.1.17.jar h2-2.2.224.jar byte-buddy-1.1
+ 4.10.jar jackson-module-parameter-names-2.15.3.jar tomcat-embed-core-10
+ .1.17.jar classmate-1.6.0.jar slf4j-api-2.0.9.jar log4j-to-slf4j-2.21.1
+ .jar spring-expression-6.1.2.jar istack-commons-runtime-4.1.2.jar
+

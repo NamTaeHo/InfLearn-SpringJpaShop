@@ -34,6 +34,12 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
+jar{
+	manifest {
+		attributes 'Main-Class': 'jpabook.jpashop.JpashopApplication'
+	}
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }

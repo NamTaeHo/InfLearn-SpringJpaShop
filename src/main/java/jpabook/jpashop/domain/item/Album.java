@@ -9,7 +9,7 @@ import lombok.Setter;
 @DiscriminatorValue("A")
 @Getter
 @Setter
-public class ItemAlbum extends Item{
+public class Album extends Item{
 
     private String artist;
     private String etc;

@@ -17,21 +17,16 @@ import java.util.List;
 public class OrderRepository {
 
     private final EntityManager em;
-
     public void save(Order order) {
         em.persist(order);
     }
-
     public Order findOne(Long id) {
         return em.find(Order.class, id);
     }
 
-
     /**
      * JPA Criteria
      */
-
-
     public List<Order> findAllByCriteria(OrderSearch orderSearch) {
         CriteriaBuilder cb = em.getCriteriaBuilder();
         CriteriaQuery<Order> cq = cb.createQuery(Order.class);
@@ -55,7 +50,6 @@ public class OrderRepository {
         TypedQuery<Order> query = em.createQuery(cq).setMaxResults(1000); //최대 1000건
         return query.getResultList();
     }
-
 
     public List<Order> findAllByString(OrderSearch orderSearch) {
         //language=JPAQL
@@ -94,6 +88,14 @@ public class OrderRepository {
             query = query.setParameter("name", orderSearch.getMemberName());
         }
         return query.getResultList();
+    }
+
+    public List<Order> findAllWithMemberDelivery() {
+        return em.createQuery(
+                "select o from Order o "+
+                        "join fetch o.member m "+
+                        "join fetch o.delivery d",Order.class)
+                .getResultList();
     }
 }
 

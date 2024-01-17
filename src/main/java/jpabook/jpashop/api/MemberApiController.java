@@ -48,8 +48,6 @@ public class MemberApiController {
         private String name;
     }
 
-
-
     @PostMapping("/api/v1/members")
     public CreateMemberResponse saveMemberV1(@RequestBody @Valid Member member) {
 
